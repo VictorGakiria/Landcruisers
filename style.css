@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    padding:0;
+}
+.content{
+    display:grid;
+    grid-template-columns:200px auto 200px;
+    grid-template-rows: 80px 300px 300px 50px;
+
+}
+#logo{
+height: 140px;
+width: 180px;
+}
+#one{
+    color:black;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#two{
+    color:black;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#three{
+    color:black;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#four{
+    color:black;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#head{
+
+grid-column-start:1 ;
+grid-column-end: 4;
+grid-row-start:1 ;
+grid-row-end: 2;
+
+}
+#body{
+margin-top: 30px;
+grid-column-start: 2;
+grid-column-end: 3;
+ 
+
+grid-row-start: 2;
+grid-column-end: 3;
+
+
+}
+#footer{
+
+grid-column-start:1;
+grid-column-end: 4;
+ 
+
+grid-row-start:3 ;
+grid-column-end: 4;
+
+
+}
+
+
+
+
+
