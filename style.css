@@ -5,7 +5,7 @@ body{
 .content{
     display:grid;
     grid-template-columns:200px auto 200px;
-    grid-template-rows: 80px 300px 300px 50px;
+    grid-template-rows: 70px 50px 300px 300px 70px;
 
 }
 #logo{
@@ -22,13 +22,13 @@ width: 180px;
     color:black;
     text-decoration: underline;
     font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #three{
     color:black;
     text-decoration: underline;
     font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #four{
     color:black;
@@ -41,29 +41,102 @@ width: 180px;
 
 grid-column-start:1 ;
 grid-column-end: 4;
+
 grid-row-start:1 ;
 grid-row-end: 2;
 
 }
+#menu{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 50px;
+
+    
+}
+ul{
+	display: flex;
+	width: 100%;
+	height: 80vh;
+	margin: auto;
+	max-width: 1000px;
+	justify-content: space-between;
+	text-align: center;
+}
+li {
+	padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+	min-width: 80px;
+	margin: auto;
+}
+
+li:hover {
+  background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+	font-weight: bold;
+}
+li:active {
+  transform: translateY(4px);
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+.shameless-plug{
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  padding: 8px 20px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+
 #body{
 margin-top: 30px;
 grid-column-start: 2;
 grid-column-end: 3;
  
 
-grid-row-start: 2;
-grid-column-end: 3;
+grid-row-start: 3;
+grid-row-end: 4;
+margin-top: 70px;;
 
 
 }
 #footer{
+background-color: black;;
 
 grid-column-start:1;
 grid-column-end: 4;
  
 
-grid-row-start:3 ;
-grid-column-end: 4;
+grid-row-start:4;
+grid-row-end:5;
+
 
 
 }
