@@ -204,7 +204,7 @@ nav {
         
       }
         nav ul li:hover a {
-          color: #fff;
+          color:red;
         }
       
       nav ul li a {
@@ -233,7 +233,7 @@ nav {
         } 
           nav ul ul li a:hover {
             background:white;
-            color:black;
+          
           }
       
     nav ul ul ul {
